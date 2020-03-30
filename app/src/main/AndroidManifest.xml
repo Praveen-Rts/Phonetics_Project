@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gegosoft.phoneticsproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Screens.Splash_Screen" >
+        </activity>
+        <activity android:name=".Activity.PaintMainActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".Activity.TempActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".Activity.DemoActivity">
+
+        </activity>
+        <activity android:name=".Activity.A_Activity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".Activity.C_Activity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".Activity.B_Activity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".Activity.Draw_Dots_Activity" />
+        <activity android:name=".Activity.Fillcolour_Activity" />
+        <activity android:name=".Activity.X_and_Y_Activities" />
+        <activity android:name=".Activity.Tracing_Activity" />
+    </application>
+
+</manifest>
